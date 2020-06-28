@@ -14,10 +14,9 @@ body {
 .top-navigation a {
     float: left;
     text-align: center;
-    padding: 10px 8px;
+    padding: 16px 14px;
     text-decoration: none;
-    font-size: 17px;
-    margin-right: 1px;
+    font-size: 14px;
   }
   .top-navigation-right {
     float: right;
