@@ -3,6 +3,7 @@
 body, html {
     font-size: small;
     font-family: arial,sans-serif;
+    margin: 0;
 }
 body {
     background: #fff;
@@ -17,16 +18,58 @@ body {
     padding: 16px 14px;
     text-decoration: none;
     font-size: 14px;
+    margin-top: 10px;
   }
   .top-navigation-right {
     float: right;
   }
   .top-navigation a:hover {
-    text-underline-position: under;
-    color: blue;
+    text-decoration: underline;
   }
 
   .top-navigation a.active {
     background-color: #4d42e7;
     color: white;
+    border-radius: 5px;
+  }
+  .logo {
+    text-align: center;
+    padding-top: 180px;
+  }
+  .form-search {
+    text-align: center;
+    padding: 20px;
+  }
+  .span2-search-query {
+    width: 40%;
+    height: 20%;
+    border-radius: 10px;
+  }
+  .btn {
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(209, 204, 204);
+  }
+  .navbar {
+    background-color: rgba(224, 218, 218, 0.904);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #7a7777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .navbar-right {
+    float: right;
+  }
+  .navbar a:hover {
+    color: gray;
+    text-decoration: underline;
   }
